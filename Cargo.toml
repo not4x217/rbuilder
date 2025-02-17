@@ -127,6 +127,7 @@ alloy-serde = { version = "0.9.2" }
 alloy-rpc-types-beacon = { version = "0.9.2", features = ["ssz"] }
 alloy-rpc-types-engine = { version = "0.9.2", features = ["ssz"] }
 alloy-rpc-types-eth = { version = "0.9.2" }
+alloy-rpc-types-mev = { version = "0.9.2" }
 alloy-signer-local = { version = "0.9.2" }
 alloy-rpc-client = { version = "0.9.2" }
 alloy-genesis = { version = "0.9.2" }

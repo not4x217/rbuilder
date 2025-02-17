@@ -130,8 +130,16 @@ impl Playground {
         "http://localhost:8645"
     }
 
+    pub fn cl_url(&self) -> &str {
+        "http://localhost:3500"
+    }
+
     pub fn el_url(&self) -> &str {
         "http://localhost:8545"
+    }
+
+    pub fn relay_url(&self) -> &str {
+        "http://localhost:5555"
     }
 
     pub fn prefunded_key(&self) -> EthereumWallet {
